@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.db
+*.sqlite
+node_modules/
+dist/
+build/
+
+# secrets and local config
+*.key
+*.pem
+
+# client material - never public
+PROPOSAL*
+*.docx
+!docs/*.md
